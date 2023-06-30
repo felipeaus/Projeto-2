@@ -11,12 +11,12 @@ body{
 
 
 .box1{
-display: flex;
-align-items: center;
-justify-content: space-between;
-padding-top: 50px;
-padding-bottom: 20px;
-border-bottom: 1px solid #e3e3e3;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding-top: 50px;
+    padding-bottom: 20px;
+    border-bottom: 1px solid #e3e3e3;
 }
 
 
@@ -24,7 +24,7 @@ border-bottom: 1px solid #e3e3e3;
     display: flex;
     align-items: center;
     justify-content: center;
-    margin-top: 30px;
+    padding-top: 30px;
     gap: 48px;
     font-size: 18px;
     color: black;
@@ -34,25 +34,60 @@ border-bottom: 1px solid #e3e3e3;
 
 .box3{
     display: flex;
-    gap: 5px;
     justify-content: space-between;
-    margin-top: 50px;
+    padding-top: 30px;
 }
-.img-box3{
-    width: 100%;
+.imgbox3{
+    display: flex;
+    flex-direction: column;
+    justify-content: end;    
     height: 500px;
-    border-radius: 5px;
+    width: 360px;    
     }
-
+.imgbox3.img1
+{
+    background-image: url('../IMAGENS/imgs/img1.jpg');
+}
+.imgbox3.img2
+{
+    background-image: url('../IMAGENS/imgs/img2.jpg');
+}
+.imgbox3.img3
+{
+    background-image: url('../IMAGENS/imgs/img3.png');
+}
+.txt1-box3{
+    padding-left: 25px;
+    color:#F9F9F9 
+} 
+.txt2-box3{
+    padding-left: 25px;
+    padding-bottom: 60px;
+    color:#F9F9F9          
+}
 
 .box4{
-    margin-top: 30px;
+    display: flex;
+    padding-top: 30px;
 }
-.img-box4{
-    border-radius: 5px;
-    height: 400px;
+.imgbox4{
+    display: flex;
+    flex-direction: column;
+    justify-content: end;    
+    background-image: url('../IMAGENS/imgs/img4.jpg');
+    height: 500px;
     width: 100%;
 }
+.txt1-box4{
+    padding-left: 25px;
+    color:#F9F9F9 
+} 
+.txt2-box4{
+    padding-left: 25px;
+    padding-bottom: 60px;
+    color:#F9F9F9;
+}
+
 
 
 .box5{
@@ -68,13 +103,20 @@ border-bottom: 1px solid #e3e3e3;
 
 .box6{
     display: flex;
-    justify-content: end;
+    justify-content: space-between;
+    flex-direction: row;
     margin-top: 30px;
     margin-bottom: 30px;
     font-family: monospace;
     font-size: 18px;
     gap: 32px;
 }
+.box6-2{
+    display: flex;
+    flex-direction: row;
+    gap: 20px;
+}
+
 .txt1-box6{
     display: flex;
     margin-right: 575px;
