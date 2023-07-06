@@ -66,6 +66,7 @@ body{
     color:#F9F9F9          
 }
 
+
 .box4{
     display: flex;
     padding-top: 30px;
@@ -116,11 +117,9 @@ body{
     flex-direction: row;
     gap: 20px;
 }
-
 .txt1-box6{
     display: flex;
-    margin-right: 575px;
-}
+    }
 .txt2-box6{
     display:flex;
     justify-content: end;
